@@ -43,5 +43,17 @@ public class LoginTest extends BaseTest {
 		lp.login(LoginData.get(0).get("Userid"), LoginData.get(0).get("Password"));
 		extent.flush();
 	}
+	
+	
+	@Test
+	public void validLogin2()
+	{
+		System.out.println("Hello");
+		log = extent.createTest("validLogin2");
+		LoginPage lp = new LoginPage(driver,log);
+		lp.LogoDisplay();
+		lp.login(LoginData.get(0).get("Userid"), LoginData.get(0).get("Password"));
+		extent.flush();
+	}
 
 }
