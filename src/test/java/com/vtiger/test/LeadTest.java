@@ -30,7 +30,7 @@ public class LeadTest extends BaseTest {
 	}
 	
 	@Test
-	public void CreateLead()
+	public void CreatevalidLead()
 	{
 		log = extent.createTest("CreateLead");
 		LoginPage lp = new LoginPage(driver,log);

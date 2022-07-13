@@ -66,7 +66,7 @@ public class BaseTest {
 		driver.manage().window().maximize();
 		driver.get(prop.getProperty("AppUrl"));
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(Integer.parseInt(prop.getProperty("GlobalTimeout"))));
-		
+		System.out.println("hello");
 		
 	}
 	
