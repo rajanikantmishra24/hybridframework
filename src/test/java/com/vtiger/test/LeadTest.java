@@ -29,7 +29,7 @@ public class LeadTest extends BaseTest {
 		tearDown();
 	}
 	
-	@Test
+	//@Test
 	public void CreatevalidLead()
 	{
 		log = extent.createTest("CreateLead");

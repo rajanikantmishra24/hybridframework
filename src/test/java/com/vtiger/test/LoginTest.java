@@ -34,7 +34,7 @@ public class LoginTest extends BaseTest {
 	}
 	
 	
-	@Test
+	//@Test
 	public void validLogin()
 	{
 		log = extent.createTest("validLogin");
@@ -45,7 +45,7 @@ public class LoginTest extends BaseTest {
 	}
 	
 	
-	@Test
+	//@Test
 	public void validLogin2()
 	{
 		System.out.println("Hello");
